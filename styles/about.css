@@ -3,7 +3,7 @@
 background: var(--clr-dark);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 57vh 25vh 41vh;
+    grid-template-rows: 60vh 25vh 50vh;
 }
 
 
