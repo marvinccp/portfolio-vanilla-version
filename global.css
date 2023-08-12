@@ -1,0 +1,20 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-back-a: rgb(218, 218, 218);
+    --clr-back-b: rgb(240, 240, 240);
+    --clr-primary: hsl(0, 0%, 37%);
+    --clr-light: rgb(199, 199, 199);
+    --clr-secundary: rgb(52, 52, 52);
+    --clr-dark: linear-gradient(60deg,#161616, rgb(39, 39, 39));
+    --font-content: 'Inter',
+    sans-serif;
+    --font-title: 'Nunito',
+    sans-serif;
+
+}
+
