@@ -1,7 +1,5 @@
 .contact-section-container{
 width: 100%;
-height: auto;
-min-height: max-content;
 background:var(--clr-dark);
 color: var(--clr-light);
 padding: 50px;
@@ -12,7 +10,7 @@ grid-template-areas:
 "i i i i i i i i i i"
 
 }
- .contact-section-container .text-contact-container {
+.text-contact-container {
 grid-area: t;
 }
 
@@ -39,12 +37,14 @@ grid-area: t;
 .contact-icons-container {
 grid-area: i;
 padding-top: 20px;
-
+max-width: 80%;
+width: 100%;
+margin:0 auto;
 display: flex;
 justify-content: center;
 text-align: center;
 gap: 20px;
-height:110px;
+height:10vh;
 
  }
  .contact-icons-container img{
@@ -60,12 +60,11 @@ height:110px;
   "t t t t t t i i i i";
 }
 .contact-icons-container {
-    height: auto;
-    min-height: fit-content;
-
+    height: 10vh;
+    margin: 70px 0 0 0;
 }
 .contact-icons-container img {
-    width: 15%;
+    width: 20%;
 
 }
  }
