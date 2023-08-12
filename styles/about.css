@@ -3,7 +3,7 @@
 background: var(--clr-dark);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60vh 25vh 50vh;
+    grid-template-rows: 68vh 25vh 50vh;
 }
 
 
@@ -12,7 +12,7 @@ background: var(--clr-dark);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 40px;
     /* background-color: aqua; */
 }
 
