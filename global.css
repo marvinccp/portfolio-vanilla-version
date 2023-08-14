@@ -16,5 +16,17 @@
     --font-title: 'Nunito',
     sans-serif;
 
+           --primary-100:#1E2022;
+           --primary-200:#34373b;
+           --primary-300:#F0F5F9;
+           --accent-100:#788189;
+           --accent-200:#e1e4e6;
+           --text-100:#1E2022;
+           --text-200:#52616B;
+           --bg-100:#F0F5F9;
+           --bg-100-video:#f0f5f96f;
+           --bg-200:#C9D6DF;
+           --bg-300:#bfc7d1;
+
 }
 

@@ -3,11 +3,13 @@ width: 100%;
 background:var(--clr-dark);
 color: var(--clr-light);
 padding: 50px;
-
+margin: 0 auto;
+max-width: 1500px;
 display: grid;
 grid-template-areas: 
 "t t t t t t t t t t"
-"i i i i i i i i i i"
+"i i i i i i i i i i";
+
 
 }
 .text-contact-container {
@@ -31,7 +33,8 @@ grid-area: t;
      margin: 10px 0;
      font-weight: 200;
      line-height: 2.5rem;
-
+display: flex;
+align-items: center;
  }
 
 .contact-icons-container {
@@ -51,6 +54,16 @@ height:10vh;
     width: 20%;
     filter: invert(77%) sepia(7%) saturate(6%) hue-rotate(314deg) brightness(87%) contrast(84%);
     margin: 6px;
+ }
+ .text-contact-container span {
+    background-image: url('../static/icons/message.png');
+    background-size: cover;
+    background-position: center;
+display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 12px 0 0 10px;
+    cursor: pointer;
  }
 
  @media(min-width: 1028px){

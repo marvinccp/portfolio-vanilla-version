@@ -1,5 +1,5 @@
 .title-section-container {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,15 +8,22 @@
     max-width: 1500px;
     margin: 0 auto;
 
-    
+    background: var(--bg-100-video);
+
+
 }
+
 #video-background {
-object-fit: cover;
-position: absolute;
+    object-fit: cover;
+    position: absolute;
     width: 100%;
-    height: 107vh;
+    height: 100vh;
     z-index: -1;
     filter: grayscale();
+    max-width: 1500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .title-container {
@@ -29,6 +36,7 @@ position: absolute;
     padding: 130px 0 0 0;
 
 }
+
 
 .menu-title-container {
     height: 100%;
@@ -55,34 +63,36 @@ position: absolute;
     flex-direction: column;
     font-size: 5rem;
     font-family: var(--font-content);
-    color: var(--clr-secundary);
+    color: var(--primary-100);
     line-height: 5.2rem;
 }
 
 .title :nth-child(3) {
 
-    color: var(--clr-dark);
+    color: var(--primary-100);
 
 }
 
-.subtitle-container {
+.subtitle-container h3 {
     width: 310px;
     font-size: 1.5rem;
     font-family: var(--font-content);
-    color: var(--clr-secundary);
+    color: var(--text-100);
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 .menu-title a {
     text-indent: 7px;
     width: 160px;
     transition: width .5s ease;
-    color: var(--clr-primary);
+    color: var(--primary-200);
     text-decoration: none;
 }
 
 .menu-title a:hover {
     width: 180px;
-    color: var(--clr-dark);
+    color: var(--primary-100);
 }
 
 @media(min-width:1100px) {

@@ -1,8 +1,9 @@
 .header-container{
     width: 100%;
     height: 7vh;
-    background-color: var(--clr-back-b);
-
+    /* background: var(--primary-100); */
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,14 +15,14 @@
     display: flex;
     align-items: center;
 }
+
 .icons{
-    filter: invert(42%) sepia(1%) saturate(1807%) hue-rotate(56deg) brightness(96%) contrast(92%);
+filter: invert(100%) sepia(16%) saturate(1138%) hue-rotate(175deg) brightness(92%) contrast(96%);
 }
 .icons:hover{
-   filter: invert(0%) sepia(3%) saturate(2243%) hue-rotate(316deg) brightness(96%) contrast(76%);
+filter: invert(6%) sepia(3%) saturate(2836%) hue-rotate(169deg) brightness(86%) contrast(84%);
 }
-
-img{
+ img {
     height: 70%;
     cursor: pointer;
 }

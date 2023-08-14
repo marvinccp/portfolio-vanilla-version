@@ -1,9 +1,11 @@
 .about-section-container {
     color: var(--clr-light);
-background: var(--clr-dark);
+    background: var(--primary-100);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 68vh 25vh 50vh;
+    grid-template-rows: 68vh 30vh 50vh;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 
@@ -26,15 +28,15 @@ li {
     font-family: var(--font-content);
     font-size: 1.4rem;
     margin: 30px 0;
-    font-weight:200 ;
+    font-weight: 200;
 }
 
-.description-skills-container > p {
+.description-skills-container>p {
     font-family: var(--font-content);
     font-size: 1.4rem;
     margin: 10px 0;
-        font-weight:200;
-        line-height: 2.5rem;
+    font-weight: 200;
+    line-height: 2.5rem;
 
 }
 
@@ -44,39 +46,44 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;}
-
-.about-image-container img {
-    height: 70%;
-    filter: grayscale();
-    border-radius: 50%;
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
-.description-skills-container{
+.about-image-container img {
+    height: 60%;
+    filter: grayscale();
+    border-radius: 50%;
+    outline: solid 7px var(--accent-100);
+
+}
+
+.description-skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
-     background: var(--clr-dark);
-     text-align: center;
-     padding: 50px;
-     flex-direction: column;
+    background: var(--primary-200);
+    text-align: center;
+    padding: 40px;
+    flex-direction: column;
 }
- .about-section-container h1 {
+
+.about-section-container h1 {
     margin: 20px 0 0 0;
     font-size: 3rem;
     font-family: var(--font-title);
 }
 
 @media(min-width:1100px) {
-   .about-section-container {
-       display: grid;
-       grid-template-columns: 2fr 1fr 2fr;
-       grid-template-rows: 100vh;
-   }
-   .about-image-container img {
-       height: 20%;
-   }
+    .about-section-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 50vh;
+    }
+
+    .about-image-container img {
+        height: 26%;
+    }
 
 
 }
-
