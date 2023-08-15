@@ -54,7 +54,7 @@ li {
     height: 60%;
     filter: grayscale();
     border-radius: 50%;
-    outline: solid 7px var(--accent-100);
+    outline: solid 4px var(--primary-300);
 
 }
 

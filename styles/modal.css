@@ -2,7 +2,7 @@
 dialog {
     margin: 40px auto;
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
     height: 90vh;
     background-color: rgb(233, 233, 233);
     padding: 20px;
@@ -16,3 +16,31 @@ button#closeModal {
     margin-top: 10px;
 }
 
+#modal-image-container{
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#modal-image-container img{
+
+    width: 63%;
+}
+
+#closeModal{
+    position: absolute;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+
+}
+#closeModal:focus{
+ 
+    border: none;
+
+}

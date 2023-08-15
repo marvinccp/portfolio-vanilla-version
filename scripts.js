@@ -35,14 +35,15 @@ dataProjects.map((p) => {
 
   projectsImages.addEventListener("click", () => {
     const modal = document.querySelector("#modal");
-    const modalText = document.querySelector("#text");
-    modalText.textContent = title;
+    const imageModal = document.querySelector("#image-modal");
+    imageModal.src = image;
     modal.showModal();
   });
 
   imageContainer.appendChild(projectsImages);
   projectsContainer.appendChild(imageContainer);
 });
+
 const closeModalButton = document.getElementById("closeModal");
 closeModalButton.addEventListener("click", () => {
   const modal = document.getElementById("modal");

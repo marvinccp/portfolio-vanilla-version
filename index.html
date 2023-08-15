@@ -5,6 +5,7 @@
       http-equiv="Content-Security-Policy"
       content="script-src 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=';"
     /> -->
+    <link rel="icon" href="./static/images/logo-mbl-l.png" type="image/png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvin Berrio</title>
@@ -32,11 +33,17 @@
     <video id="video-background" autoplay muted loop>
       <source src="/static/videos/fondo1.mp4" type="video/mp4" />
     </video>
+
+
     <dialog id="modal">
       <h4 id="text"></h4>
-      <!-- <img id="modalImage" src="" alt="Modal Image"> -->
-      <button id="closeModal">Cerrar</button>
+      <div id="modal-image-container">
+        <img id="image-modal">
+      </div>
+      <button id="closeModal"></button>
     </dialog>
+
+
     <!-- Header -->
     <header class="header-container">
       <div class="header-image-container">
@@ -44,9 +51,8 @@
       </div>
 
       <div class="header-icons-rrss--container">
-          <img class="icons" src="./static/icons/github.svg" alt="" />
-          <img class="icons" src="./static/icons/whatsapp.svg" alt="" />
-        </a>
+        <img class="icons" src="./static/icons/github.svg" alt="" />
+        <img class="icons" src="./static/icons/whatsapp.svg" alt="" />
       </div>
     </header>
     <!-- header end -->
@@ -54,17 +60,17 @@
     <section class="title-section-container">
       <section class="title-container">
         <div class="title">
-          <h1>Hola</h1>
-          <h1>Soy</h1>
-          <h1>Marvin</h1>
+          <h1 class="hola-animate">Hola</h1>
+          <h1 class="soy-animate">Soy</h1>
+          <h1 class="marvin-animate">Marvin</h1>
         </div>
 
-        <div class="subtitle-container">
+        <div class="subtitle-container subtitle-animate">
           <h3>Comunicador Audiovisual & Desarrollador Web</h3>
         </div>
       </section>
-
-      <section class="menu-title-container">
+      <div class="line"></div>
+      <section class="menu-title-container menu-animate">
         <div class="menu-title">
           <a href="#about">
             <h4>ABOUT</h4>
@@ -109,9 +115,9 @@
     </section>
 
     <section id="projects" class="projects-section-container">
-   <video id="video-background" autoplay muted loop>
-      <source src="/static/videos/fondo1.mp4" type="video/mp4" />
-    </video>
+      <video id="video-background" autoplay muted loop>
+        <source src="/static/videos/fondo1.mp4" type="video/mp4" />
+      </video>
       <div class="text-projects-container">
         <h1>Projects</h1>
       </div>
